@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+
+TITLE = "Solutions Catalog"
 project = 'solutions-catalog'
 copyright = '2023, neoris-ai'
 author = 'neoris-ai'
@@ -38,3 +41,6 @@ pygments_style = 'sphinx'
 import sphinx_pdj_theme
 html_theme = 'sphinx_pdj_theme'
 html_theme_path = [sphinx_pdj_theme.get_html_theme_path()]
+
+html_title = TITLE
+html_logo = os.path.join('images', "neoris-logo-1.png")

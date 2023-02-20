@@ -4,14 +4,13 @@
 
 Proof of concept for a catalog
 
-
 ## Environment to build documentation
 
 Install in a virtual environment
 
    ```bash
-   $ python -m venv env/catalog
-   $ source env/catalog/bin/activate
+   $ python -m venv venv/catalog
+   $ source venv/catalog/bin/activate
    $ pip install -r requirements.txt
    ```
 
@@ -24,9 +23,9 @@ Note: In windows to activate an environment you will need to use:
 Build a local version of the docs
 
    ```bash
+   $ cd docs
    $ make html
    ```
-
 
 ## Contributing
 
