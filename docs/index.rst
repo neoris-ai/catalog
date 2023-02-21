@@ -6,25 +6,32 @@
 NEORIS: Data Analytics & AI Solution Catalog
 =============================================
 
-.. figure:: ./images/neoris-logo-1.png
-   :scale: 15%
+.. figure:: ./images/neoris-logo-2.png
+   :scale: 35%
    :align: center
    :alt: neoris-logo
    :figclass: align-center
 
+.. toctree::
+   :maxdepth: 1
+
+   offerings
+   offering-by-industry
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Offerings:
+
+   data-science
+   data-visualization
+   data-engineering
+   data-foundations
 
 .. toctree::
    :glob:
-   :maxdepth: 2
-   :caption: Solutions:
+   :maxdepth: 1
+   :caption: Featured Solutions:
 
-   demand-forecasting/*
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   demand-forecasting/demand-forecasting
+   process-optimization/process-optimization
+   computer-vision/computer-vision
