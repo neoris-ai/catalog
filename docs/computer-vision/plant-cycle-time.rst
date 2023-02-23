@@ -19,16 +19,27 @@ plant is unique with respect to entries, exits, loading silos and more, but the 
 in a consistent way.  These data are valuable for decision makers and can help to minimize wait time, schedule downtimes,
 optimize staffing and they can be used to improve safety and compliance.
 
+
 Project Goals
 ----------------
 
-For the solution to scale to new types of plants and to new countries several project goals needed to be met:
+For the machine learning and computer vision components
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Be able to correctly catalog all activity with at least a timestamp and an image (instance segmentation)
+2. Be able to correctly match a truck to cataloged activity while in frame (object tracking model)
+3. Be able to segment licence plates in the images X percent of the time (instance segmentation)
+4. Be able to correctly identify all letters and numbers present on each plate (object recognition)
+
+For the solution to scale to new types of plants and to new countries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Integrate with country and plant level IT ecosystem
 2. Flexible approach to model deployment (on-prem, cloud-service, edge-device)
 3. Rich user experience to support decision making process
 4. Better vehicle recognition metrics than previously used market solution
 5. Recognize vehicles and track them using multiple criteria: truck type, identifying numbers, RFID, and licence plates
+
 
 Tech Stack
 --------------
